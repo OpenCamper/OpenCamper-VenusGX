@@ -1,0 +1,66 @@
+{
+	"VenusOS": {
+		"VenusId": "VENUS_ID"
+	},
+    "MQTT": {
+        "host": "VENUS_GX_IP",
+        "port": 1883,
+        "timeout": 5,
+        "username": "0",
+        "password": "0"
+    },
+    "bms": {
+        "mqtt_topic": "Battery/cells/",
+        "mqtt_qos": 0,
+		"modbus_gw_ip": "RS485_IP",
+		"modbus_gw_port": 8899,
+		"modbus_gw_timeout": 10,
+		"influxdb_setting": "influxDB",
+        "cell_count": 8,
+		"type": 101,
+		"protocol": "ecs_default",
+		"cells": [
+			{"id": 1, "address": 3, "type": "101"},
+			{"id": 2, "address": 4, "type": "101"},
+			{"id": 3, "address": 5, "type": "101"},
+			{"id": 4, "address": 6, "type": "101"},
+			{"id": 5, "address": 7, "type": "101"},
+			{"id": 6, "address": 8, "type": "101"},
+			{"id": 7, "address": 9, "type": "101"},
+			{"id": 8, "address": 10, "type": "101"}
+		],
+		"greenswitch": {
+			"address": 11,
+			"type": 200,
+			"protocol": "ecs_default"
+		}
+    },
+	"battery": {
+		"dbus_name": "com.victronenergy.battery.ttyO2"
+	},
+    "influxDB": {
+        "username": "",
+        "password": "",
+        "host": "",
+        "port": 8086,
+        "database": "wowa"
+    },
+	"gps": {
+		"dbus_name": "com.victronenergy.gps",
+		"influxdb_setting": "influxDB",
+		"mqtt_topic": "gps/0/",
+		"mqtt_topic_altitude": "gps/0/Altitude",
+		"mqtt_topic_position_latitude": "gps/0/Position/Latitude",
+		"mqtt_topic_position_longitude": "gps/0/Position/Longitude",
+		"mqtt_topic_satellites": "gps/0/NrOfSatellites",
+		"mqtt_topic_speed": "gps/0/Speed",
+		"mqtt_topic_course": "gps/0/Course"
+	},
+	"solar": {
+		"dbus_name": "com.victronenergy.solarcharger.ttyO4",
+		"influxdb_setting": "influxDB"
+	},
+	"multiplus": {
+		"dbus_name": "com.victronenergy.vebus.ttyO5"
+	}
+}

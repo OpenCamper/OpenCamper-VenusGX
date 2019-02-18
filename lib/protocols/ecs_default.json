@@ -1,0 +1,393 @@
+{
+	"Device": {
+		"101": {
+			"Name": "LiPro1-6_Active",
+			"Type_Id": 101,
+			"Registers": {
+				"DEVICE_TYPE_ID": {
+					"Id": 0,
+					"Count": 1,
+					"Comment": "Devicetype and Version"
+				},
+				"SN1": {
+					"Id": 1,
+					"Count": 1,
+					"Comment": "Serial 1"
+				},
+				"SN2": {
+					"Id": 2,
+					"Count": 1,
+					"Comment": "Serial 2"
+				},
+				"SN3": {
+					"Id": 3,
+					"Count": 1,
+					"Comment": "Serial 3"
+				},
+				"SN4": {
+					"Id": 4,
+					"Count": 1,
+					"Comment": "Serial 4"
+				},
+				"SN5": {
+					"Id": 5,
+					"Count": 1,
+					"Comment": "Serial 5"
+				},
+				"SN6": {
+					"Id": 6,
+					"Count": 1,
+					"Comment": "Serial 6"
+				},
+				"ZELL_VOLTAGE": {
+					"Id": 7,
+					"Count": 1,
+					"Unit": "mV",
+					"Comment": "cell Voltage"
+				},
+				"TEMPERATURE": {
+					"Id": 8,
+					"Count": 1,
+					"Comment": "cell temperature (result - 600) / 10"
+				},
+				"TEMPERATURE_SHUTDOWN": {
+					"Id": 9,
+					"Count": 1,
+					"Comment": "boolean"
+				},
+				"VOLTAGE_SHUTDOWN": {
+					"Id": 10,
+					"Count": 1,
+					"Comment": "boolean"
+				},
+				"LVP_DELAY_COUNTER": {
+					"Id": 11,
+					"Count": 1,
+					"Comment": "counter for LVP Cutoff delay"
+				},
+				"BALANCER_POWER": {
+					"Id": 12,
+					"Count": 1,
+					"Comment": "balancepower"
+				},
+				"DC_DC_CONVERTER_STROM": {
+					"Id": 13,
+					"Count": 1
+				},
+				"LVP_STATE": {
+					"Id": 14,
+					"Count": 1
+				},
+				"OVP_STATE": {
+					"Id": 15,
+					"Count": 1,
+					"Comment": "boolean"
+				},
+				"MAX_VOLTAGE": {
+					"Id": 16,
+					"Count": 1
+				},
+				"MIN_VOLTAGE": {
+					"Id": 17,
+					"Count": 1
+				},
+				"MAX_TEMPERATURE": {
+					"Id": 18,
+					"Count": 1
+				},
+				"MIN_TEMPERATURE": {
+					"Id": 19,
+					"Count": 1
+				},
+				"FIRMWARE_REVISION_MAJOR": {
+					"Id": 20,
+					"Count": 1
+				},
+				"FIRMWARE_REVISION_MINOR": {
+					"Id": 21,
+					"Count": 1
+				},
+				"LAST_CHARGE_TIME": {
+					"Id": 22,
+					"Count": 1
+				},
+				"LAST_CHARGE_TRANSFER_TIME": {
+					"Id": 23,
+					"Count": 1
+				},
+				"BAUDRATE_HIGH": {
+					"Id": 24,
+					"Count": 1
+				},
+				"BAUDRATE_LOW": {
+					"Id": 25,
+					"Count": 1
+				},
+				"PARITY_MODE": {
+					"Id": 26,
+					"Count": 1
+				},
+				"STOPP_BIT_MODE": {
+					"Id": 27,
+					"Count": 1
+				},
+				"SLAVE_ADRESS": {
+					"Id": 28,
+					"Count": 1
+				},
+				"MASTER_MODE": {
+					"Id": 29,
+					"Count": 1
+				},
+				"COMMAND": {
+					"Id": 30,
+					"Count": 1
+				},
+				"BAL_ADC_STEPS": {
+					"Id": 31,
+					"Count": 1,
+					"Unit": "mV"
+				},
+				"OVP_ALARM_ADC_STEPS": {
+					"Id": 32,
+					"Count": 1,
+					"Unit": "mV"
+				},
+				"LVP_ALARM_ADC_STEPS": {
+					"Id": 33,
+					"Count": 1,
+					"Unit": "mV"
+				},
+				"OVP_START_ADC_STEPS": {
+					"Id": 34,
+					"Count": 1,
+					"Unit": "mV"
+				},
+				"OVP_STOP_ADC_STEPS": {
+					"Id": 35,
+					"Count": 1,
+					"Unit": "mV"
+				},
+				"LVP_START_ADC_STEPS": {
+					"Id": 36,
+					"Count": 1,
+					"Unit": "mV"
+				},
+				"LVP_STOP_ADC_STEPS": {
+					"Id": 37,
+					"Count": 1,
+					"Unit": "mV"
+				},
+				"VOLTAGE_SHUTDOWN_START_ADC_STEPS": {
+					"Id": 38,
+					"Count": 1,
+					"Unit": "mV",
+					"Comment": "Current Start Sleepmode"
+				},
+				"VOLTAGE_SHUTDOWN_STOP_ADC_STEPS": {
+					"Id": 39,
+					"Count": 1,
+					"Unit": "mV",
+					"Comment": "Current Stop Sleepmode"
+				},
+				"TEMP_SHUTDOWN_START_ADC_STEPS": {
+					"Id": 40,
+					"Count": 1,
+					"Comment": "Temp Start Sleepmode"
+				},
+				"TEMP_SHUTDOWN_STOP_ADC_STEPS": {
+					"Id": 41,
+					"Count": 1,
+					"Comment": "Temp Stop Sleepmode"
+				},
+				"LVP_TIME": {
+					"Id": 42,
+					"Count": 1,
+					"Comment": "delay"
+				},
+				"BALANCER_ADC_STEPS_DEFAULT": {
+					"Id": 43,
+					"Count": 1,
+					"Comment": "Balancer current when no controller communication"
+				}
+			}
+		},
+		"200": {
+			"Name": "greenSwitch",
+			"Type_Id": 200,
+			"Registers": {
+				"DEVICE_TYPE_ID": {
+					"Id": 0,
+					"Count": 1,
+					"Comment": "Geraetekennung und Version200: greenSwitch"
+				},
+				"FW_MAJOR": {
+					"Id": 1,
+					"Count": 1,
+					"Comment": "Hauptversionsnummer Firmware"
+				},
+				"FW_MINOR": {
+					"Id": 2,
+					"Count": 1,
+					"Comment": "Nebenversionsnummer Firmware"
+				},
+				"SN": {
+					"Id": 3,
+					"Count": 2,
+					"Comment": "Seriennummer"
+				},
+				"BAUDRATE": {
+					"Id": 5,
+					"Count": 2,
+					"Comment": "Baudrateneinstellung. Moegliche Werte: (9600, 14400, 19200, 28800, 38400, 57600, 76800,115200"
+				},
+				"PARITY": {
+					"Id": 7,
+					"Count": 1,
+					"Comment": "101:even, 110:none, 111:odd"
+				},
+				"SLAVE_ADRESS": {
+					"Id": 8,
+					"Count": 1,
+					"Comment": "Modbus Adresse"
+				},
+				"COMMAND": {
+					"Id": 9,
+					"Count": 1,
+					"Comment": "Befehlseingabe: Beim schreiben einer 1 in dieses Register, werden die Schnittstellen Parameter im EEPROM gesichert."
+				},
+				"VOLTAGE_A": {
+					"Id": 10,
+					"Count": 1,
+					"Unit": "mV",
+					"Comment": "Spannung an Seite A"
+				},
+				"VOLTAGE_B": {
+					"Id": 11,
+					"Count": 1,
+					"Unit": "mV",
+					"Comment": "Spannung an Seite B"
+				},
+				"VOLTAGE_DROP_AB": {
+					"Id": 12,
+					"Count": 2,
+					"Unit": "uV",
+					"Comment": "Spannungsabfall ueber dem Relais in uV"
+				},
+				"TEMPERATURE": {
+					"Id": 14,
+					"Count": 1,
+					"Unit": "C",
+					"Comment": "Temperatur an der Platine"
+				},
+				"TEMPERATURE_SHUTDOWN": {
+					"Id": 15,
+					"Count": 1,
+					"Unit": "C",
+					"Comment": "Abschalttemperatur in C/10. Bei Ueberschreitung wird in den Zustand Error geschaltet."
+				},
+				"ADC_VOLTAGE_AB": {
+					"Id": 16,
+					"Count": 1,
+					"Comment": "Rohdaten, Spannungsabfall am Relais"
+				},
+				"DIP_MODUS": {
+					"Id": 17,
+					"Count": 1,
+					"Comment": "Ueber DIP Schalter eingestellter Modus"
+				},
+				"SWITCH_STATE": {
+					"Id": 18,
+					"Count": 1,
+					"Comment": "Betriebszustand: 0:Aus, 1:An, 2:Auto, 3:Error, 4:Reserviert"
+				},
+				"LVP_STATE": {
+					"Id": 19,
+					"Count": 1,
+					"Comment": "0: LVP aktiv, keine Eingangsspannung an LVP Klemme. 1: LVP nicht aktiv, Eingangsspannung an LVP Klemme vorhanden"
+				},
+				"OVP_STATE": {
+					"Id": 20,
+					"Count": 1,
+					"Comment": "0: OVP aktiv, keine Eingangsspannung an OVP Klemme vorhanden, 1: OVP nicht aktiv, Eingangsspannung an OVP Klenne vorhanden"
+				},
+				"MAX_VOLTAGE_A": {
+					"Id": 21,
+					"Count": 1,
+					"Unit": "mV",
+					"Comment": "Maximal gespeicherte Spannung Seite A in mV. Fuer Reset 0 eintragen."
+				},
+				"MIN_VOLTAGE_A": {
+					"Id": 22,
+					"Count": 1,
+					"Unit": "mV",
+					"Comment": "Minimal gespeicherte Spannung Seite A in mV. Fuer Reset 50000 eintragen."
+				},
+				"MAX_VOLTAGE_B": {
+					"Id": 23,
+					"Count": 1,
+					"Unit": "mV",
+					"Comment": "Maximal gespeicherte Spannung Seite B in mV. Fuer Reset 0 eintragen."
+				},
+				"MIN_VOLTAGE_B": {
+					"Id": 24,
+					"Count": 1,
+					"Unit": "mV",
+					"Comment": "Minimal gespeicherte Spannung Seite B in mV. Fuer Reset 50000 eintragen."
+				},
+				"MAX_VOLTAGE_DROP_AB": {
+					"Id": 25,
+					"Count": 2,
+					"Unit": "uV",
+					"Comment": "Maximal gespeicherter Spannungsabfall (bei Ladung) Seite AB in uV. Fuer Reset 0 eintragen."
+				},
+				"MAX_VOLTAGE_DROP_BA": {
+					"Id": 27,
+					"Count": 2,
+					"Unit": "uV",
+					"Comment": "Maximal gespeicherter Spannungsabfall (bei Entladung) Seite BA in uV. Fuer Reset 300000 eintragen."
+				},
+				"MAX_TEMP": {
+					"Id": 29,
+					"Count": 1,
+					"Unit": "C",
+					"Comment": "Maximal gespeicherte Temperatur in C/10. Fuer Reset 0 eintragen."
+				},
+				"MIN_TEMP": {
+					"Id": 30,
+					"Count": 1,
+					"Unit": "C",
+					"Comment": "Minimal gespeicherte Temperatur in C/10. Fuer Reset 750 eintragen."
+				},
+				"RELAIS_STATUS": {
+					"Id": 31,
+					"Count": 1,
+					"Comment": "0: Relais offen, 1: Relais geschlossen"
+				},
+				"MAX_VOLTAGE_DROP_BA_SHUTDOWN": {
+					"Id": 32,
+					"Count": 2,
+					"Unit": "mV",
+					"Comment": "Spannungsabfall Grenzwert Seite BA (bei Entladung) in mV. Bei Ueberschreitung wird in den Zustand Error geschaltet"
+				},
+				"MAX_VOLTAGE_DROP_AB_SHUTDOWN": {
+					"Id": 34,
+					"Count": 2,
+					"Unit": "mV",
+					"Comment": "Spannungsabfall Grenzwert Seite AB (bei Ladung) in mV. Bei Ueberschreitung wird in den Zustand Error geschaltet"
+				},
+				"VOLTAGE_DROP_AB_CORRECTION": {
+					"Id": 36,
+					"Count": 1,
+					"Comment": "Stromsensor Offset-Korrekturwert. Achtung, von ECS kalibriert."
+				},
+				"CURRENT": {
+					"Id": 37,
+					"Count": 1,
+					"Unit": "A",
+					"Comment": "Geschaetzte Stromstaerke in A. Positiv: Akku wird geladen, Negativ: Akku wird entladen."
+				}
+			}
+		}
+	}
+}
